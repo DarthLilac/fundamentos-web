@@ -1,0 +1,22 @@
+h1 {
+    color: crimson;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* horizontal */
+    align-items: center; /*vertical */
+
+    background-color: darkslategrey;
+    color: cornsilk;
+    border: 5px solid blueviolet;
+    padding: 20px;
+    margin: 20px;
+    /* padding é em relação da borda com o conteúdo */
+    /* margin é em relação da boda da página */
+}
+
+#first-span {
+    color: aquamarine;
+
+}

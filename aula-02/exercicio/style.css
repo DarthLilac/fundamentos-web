@@ -1,0 +1,54 @@
+h1 {
+    color: #F7418F;
+}
+
+.container {
+    justify-content:space-between; /* horizontal */
+    align-items:center; /*vertical */
+
+    background-color: #AC87C5;
+    color: cornsilk;
+    border: 5px solid #756AB6;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container img {
+    max-width: 30%;
+    display: block; /* Para centralizar a imagem dentro da caixa */
+    margin:20px; /* Para centralizar a imagem horizontalmente */
+    border-radius: 10px; /* Para adicionar bordas arredondadas */
+}
+
+.container2 img {
+    max-width: 30%;
+    display: block; /* Para centralizar a imagem dentro da caixa */
+    margin:20px; /* Para centralizar a imagem horizontalmente */
+    border-radius: 10px; /* Para adicionar bordas arredondadas */
+}
+
+#h2-bolo {
+    color: #FC819E;
+}
+
+#h4-bolo {
+    color: #E0AED0;
+}
+
+#h3-bolo {
+    color: #FEC7B4;
+}
+
+body {
+    background-color: #FFE5E5;
+}
+
+.music-player {
+    width: 300px;
+    margin: 10px;
+    background-color: #FC819E;
+    padding: 10px;
+    border-radius: 10px;
+}

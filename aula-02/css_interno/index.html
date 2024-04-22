@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css interno</title>
+
+    <style>
+        p {
+            font-size: 45px;
+            color: hotpink;
+            background-color: lavenderblush;
+        }
+
+        .container {
+            font-style: italic;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: crimson;
+        }
+
+        #identificacao {
+            background-color: aqua;
+        }
+
+        #first-h1 {
+            font-style: normal;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- exemplo 1-->
+    <h1>
+        Título
+    </h1>
+    <p>
+        ~~ Parágrafo ~~
+    </p>
+
+    <div class="container">
+        <!-- p é inblock e o span é inline. P utiliza um bloco e o span a mesma linha -->
+        <h1 id="first-h1">
+            Título
+        </h1>
+
+        <span>
+            exemplo 2
+        </span>
+        <span>
+            exemplo 3
+        </span>
+        <span id="identificacao">
+            exemplo 4
+        </span>
+
+    </div>
+
+</body>
+
+</html>
