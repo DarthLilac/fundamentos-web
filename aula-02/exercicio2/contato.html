@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+
+    <h1 class="center">Entre em contato comigo!</h1>
+
+    <div class="container mb-50">
+
+        <div>
+            <form>
+                <label for="nome">Nome:</label> <br/>
+                <input type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
+                <br/>
+    
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
+                <br>
+        
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"></div>
+                <br>
+                <br>
+        
+                <button onclick="enviar()">Enviar</button>
+            </form>
+        </div>
+
+    <div class="ml-50">
+        <p>Porto Alegre</p>
+        <p>RS</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220895.40936210455!2d-51.3419493188701!3d-30.108767189147358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199cd2566acb1d%3A0x603111a89f87e91f!2sPorto%20Alegre%2C%20RS!5e0!3m2!1spt-BR!2sbr!4v1714744280399!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+    <hr/>
+
+    <footer>
+
+        <div class="container">
+            <a href="https://www.facebook.com/talia.moura.33" target="_blank">
+                <img class="tm-social p-30" src="assets/img/facebook.png" alt="Logo do Facebook">
+             </a>
+             
+             <a href="https://www.linkedin.com/in/talia-moura/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+             </a>
+             
+             <a href="https://www.instagram.com/taah_moura/" target="_blank">
+                <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do Intagram">
+             </a>
+        </div>
+
+        <p class="center">
+            Todos os direitos reservados: Andressa Rocha &copy
+        </p>
+
+    </footer>
+    <!-- JS Interno
+         JS Externo -->
+
+    <script src="assets/scripts/scripts.js"></script>
+
+</body>
+</html>
